@@ -68,8 +68,8 @@ function App() {
                 <div className="home-thumb">
                   <div className="section-title">
                     <h4 className="wow fadeInUp animated" data-wow-delay="0.3s" style={{ visibility: 'visible', animationDelay: '0.3s', animationName: 'fadeInUp' }}>en desarrollo</h4>
-                    <h1 className="wow fadeInUp animated" data-wow-delay="0.6s" style={{ visibility: 'visible', animationDelay: '0.6s', animationName: 'fadeInUp' }}>Programador <strong>Web Full Stack</strong> con bases en UX/</h1>
-                    <p className="wow fadeInUp animated" data-wow-delay="0.9s" style={{ visibility: 'visible', animationDelay: '0.9s', animationName: 'fadeInUp' }}>Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum non pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.</p>
+                    <h1 className="wow fadeInUp animated" data-wow-delay="0.6s" style={{ visibility: 'visible', animationDelay: '0.6s', animationName: 'fadeInUp' }}>Programador <strong>Web Full Stack</strong> con bases en UX/UI</h1>
+                    <p className="wow fadeInUp animated" data-wow-delay="0.9s" style={{ visibility: 'visible', animationDelay: '0.9s', animationName: 'fadeInUp' }}>Con un bootcammp de Web Full Stack y otro de UX/</p>
                     <a href="#about" className="wow fadeInUp smoothScroll section-btn btn btn-success animated" data-wow-delay="1.4s" style={{ visibility: 'visible', animationDelay: '1.4s', animationName: 'fadeInUp' }}>Get Started</a>
                   </div>
                 </div>
