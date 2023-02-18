@@ -69,8 +69,8 @@ function App() {
                   <div className="section-title">
                     <h4 className="wow fadeInUp animated" data-wow-delay="0.3s" style={{ visibility: 'visible', animationDelay: '0.3s', animationName: 'fadeInUp' }}>en desarrollo</h4>
                     <h1 className="wow fadeInUp animated" data-wow-delay="0.6s" style={{ visibility: 'visible', animationDelay: '0.6s', animationName: 'fadeInUp' }}>Programador <strong>Web Full Stack</strong> con bases en UX/UI</h1>
-                    <p className="wow fadeInUp animated" data-wow-delay="0.9s" style={{ visibility: 'visible', animationDelay: '0.9s', animationName: 'fadeInUp' }}>Con un bootcammp de Web Full Stack y otro de UX/</p>
-                    <a href="#about" className="wow fadeInUp smoothScroll section-btn btn btn-success animated" data-wow-delay="1.4s" style={{ visibility: 'visible', animationDelay: '1.4s', animationName: 'fadeInUp' }}>Get Started</a>
+                    <p className="wow fadeInUp animated" data-wow-delay="0.9s" style={{ visibility: 'visible', animationDelay: '0.9s', animationName: 'fadeInUp' }}>Con un bootcamp de Web Full Stack mi enfoque inicial es en Front End y conocimientos básicos en Back End para desarrollar proyectos integrales. </p>
+                    <a href="#about" className="wow fadeInUp smoothScroll section-btn btn btn-success animated" data-wow-delay="1.4s" style={{ visibility: 'visible', animationDelay: '1.4s', animationName: 'fadeInUp' }}>BAJAR CV</a>
                   </div>
                 </div>
               </div>
@@ -78,18 +78,18 @@ function App() {
           </div>
         </section>
         {/* About Section */}
-        <section id="about" className="parallax-section" style={{ backgroundPosition: '50% 423px' }}>
+        <section id="about" className="parallax-section" style={{ backgroundPosition: '50% 423px', marginBottom: '50px'}}>
           <div className="container">
             <div className="row">
               <div className="col-md-6 col-sm-12">
                 <div className="about-thumb">
                   <div className="wow fadeInUp section-title animated" data-wow-delay="0.4s" style={{ visibility: 'visible', animationDelay: '0.4s', animationName: 'fadeInUp' }}>
-                    <h1>Donec auctor</h1>
-                    <p className="color-yellow">Sed vulputate vitae diam quis bibendum</p>
+                    <h1>Perfil General</h1>
+                    <p className="color-yellow">Ing. Industrial y de Sistemas</p>
                   </div>
                   <div className="wow fadeInUp animated" data-wow-delay="0.8s" style={{ visibility: 'visible', animationDelay: '0.8s', animationName: 'fadeInUp' }}>
-                    <p>Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem. Mauris convallis eros massa.</p>
-                    <p>Quisque viverra iaculis aliquam. Etiam volutpat, justo non aliquam bibendum, sem nibh mollis erat, quis porta odio odio at velit.</p>
+                    <p>Soy Ing. Industrial con maestria en Innovación para el Desarrollo Empresarial buscando un cambio drástico en su actual actividad. </p>
+                    <p>Siendo encargada de producción de la cervecería artesanal Maltalab combino esta actividad con el aprendizaje de programación.</p>
                   </div>
                 </div>
               </div>
@@ -100,23 +100,33 @@ function App() {
                 <div className="skill-thumb">
                   <div className="wow fadeInUp section-title color-white animated" data-wow-delay="1.2s" style={{ visibility: 'visible', animationDelay: '1.2s', animationName: 'fadeInUp' }}>
                     <h1>My Skills</h1>
-                    <p className="color-white">Photoshop . HTML CSS JS . Web Design</p>
+                    <p className="color-white">REACT, HTML, CSS, JS, Git, Github, Node, MongoDB . Web Design, UX/UI, Figma</p>
                   </div>
                   <div className=" wow fadeInUp skills-thumb animated" data-wow-delay="1.6s" style={{ visibility: 'visible', animationDelay: '1.6s', animationName: 'fadeInUp' }}>
                     <strong>Frontend Design</strong>
-                    <span className="color-white pull-right">90%</span>
+                    <span className="color-white pull-right">80%</span>
                     <div className="progress">
-                      <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100} style={{ width: '90%' }} />
+                      <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100} style={{ width: '80%' }} />
                     </div>
                     <strong>Backend processing</strong>
-                    <span className="color-white pull-right">70%</span>
+                    <span className="color-white pull-right">50%</span>
                     <div className="progress">
-                      <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow={70} aria-valuemin={0} aria-valuemax={100} style={{ width: '70%' }} />
+                      <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100} style={{ width: '50%' }} />
                     </div>
                     <strong>HTML5 &amp; CSS3</strong>
                     <span className="color-white pull-right">80%</span>
                     <div className="progress">
                       <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100} style={{ width: '80%' }} />
+                    </div>
+                    <strong>Web Design</strong>
+                    <span className="color-white pull-right">80%</span>
+                    <div className="progress">
+                      <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100} style={{ width: '80%' }} />
+                    </div>
+                    <strong>Figma</strong>
+                    <span className="color-white pull-right">60%</span>
+                    <div className="progress">
+                      <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100} style={{ width: '60%' }} />
                     </div>
                   </div>
                 </div>
@@ -131,8 +141,9 @@ function App() {
               <div className="bg-yellow col-md-3 col-sm-6">
                 <div className="wow fadeInUp color-white service-thumb animated" data-wow-delay="0.8s" style={{ visibility: 'visible', animationDelay: '0.8s', animationName: 'fadeInUp' }}>
                   <i className="fa fa-desktop" />
-                  <h3>Interface Design</h3>
-                  <p className="color-white">Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante.</p>
+                  <h3>Landing de Venta</h3>
+                  <p className="color-white">Maltalab webpage</p>
+                  
                 </div>
               </div>
               <div className="col-md-3 col-sm-6">
