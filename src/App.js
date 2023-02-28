@@ -79,7 +79,7 @@ function App() {
         </section>
         {/* About Section */}
         <section id="about" className="parallax-section" style={{ backgroundPosition: '50% 423px', marginBottom: '50px'}}>
-          <div className="container">
+          <div className="Container">
             <div className="row">
               <div className="col-md-6 col-sm-12">
                 <div className="about-thumb">
@@ -106,7 +106,7 @@ function App() {
                     <strong>Frontend Design</strong>
                     <span className="color-white pull-right">80%</span>
                     <div className="progress">
-                      <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100} style={{ width: '80%' }} />
+                      <div className="progress-bar progress-bar-secondary" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100} style={{ width: '80%' }} />
                     </div>
                     <strong>Backend processing</strong>
                     <span className="color-white pull-right">50%</span>
